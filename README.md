@@ -31,3 +31,7 @@ Conclusion
 
 In this project, the blackfriday dataset has been explored. While EDA revealed some interesting relationships among different features, for the purpose of predicting customer's Purchase, the top three features useful included Product_Category_1, Product_ID and User_ID. With a roughly tuned Random Forest model with max_depth = 9 and n_estimators = 300, the RMSR for predicting Purchase of this model was shown to be ~2911.
 However, if the goal is to predict Purchase for the new customer who have never been in the store, those customer-specific and product-specific information cannot be utilized. In this case, only the low-level features can be utilized to train the model. In this case, the model perfornace of the test set was ~4876.
+
+
+
+Dataset Reference: https://www.kaggle.com/mehdidag/black-friday
